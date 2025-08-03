@@ -1,0 +1,55 @@
+# Mall Customer Segmentation Analysis
+
+## Project Overview
+This project focuses on performing customer segmentation on a dataset of mall customers. The goal is to identify distinct groups of customers based on their `Annual Income` and `Spending Score`, which can help the mall's marketing team create targeted strategies for each segment.
+
+## Dataset
+The dataset used is `mall_customrs.csv`, which contains information about mall customers, including:
+- `CustomerID`: Unique identifier for each customer.
+- `Gender`: Gender of the customer.
+- `Age`: Age of the customer.
+- `Annual Income (k$)`: Annual income of the customer in thousands of dollars.
+- `Spending Score (1-100)`: A score assigned by the mall based on customer behavior and spending habits.
+
+## Methodology
+The analysis was performed using the following steps:
+1.  **Data Exploration and Preprocessing**: Initial examination of the data, checking for missing values, and understanding the distribution of key variables.
+2.  **Feature Selection**: `Annual Income (k$)` and `Spending Score (1-100)` were chosen as the primary features for segmentation.
+3.  **Clustering with K-Means**: The K-Means clustering algorithm was used to group customers.
+    * **Finding the Optimal Number of Clusters**: The Elbow Method was applied to determine the ideal number of clusters ($k$).
+4.  **Visualization**: The final clusters were visualized using scatter plots to clearly show the different customer segments.
+
+## Results
+The analysis successfully identified **five distinct customer segments**:
+1.  **Segment 1**: [Describe this segment, e.g., High Income, Low Spenders].
+2.  **Segment 2**: [Describe this segment, e.g., Average Income, Average Spenders].
+3.  **Segment 3**: [Describe this segment, e.g., Low Income, Low Spenders].
+4.  **Segment 4**: [Describe this segment, e.g., Low Income, High Spenders].
+5.  **Segment 5**: [Describe this segment, e.g., High Income, High Spenders].
+
+These segments can be used by the mall to create personalized marketing campaigns, loyalty programs, and product recommendations.
+
+## Technologies and Libraries Used
+- **Python**: Programming language.
+- **Jupyter Notebook**: For data analysis and visualization.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical operations.
+- **Scikit-learn**: For implementing the K-Means clustering algorithm.
+- **Matplotlib** and **Seaborn**: For data visualization.
+
+## How to Run the Project
+1.  Clone this repository:
+    ```bash
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd your-repository-name
+    ```
+3.  Install the required libraries:
+    ```bash
+    pip install pandas numpy scikit-learn matplotlib seaborn
+    ```
+4.  Run the Jupyter notebook `Kmeans_clustering_mall_customers.ipynb` to see the analysis and results.
+
+[Prateek P D]
